@@ -11,37 +11,40 @@ global.bruhdash = {
 
   // returns the first element of an array
   first: function (arr) {
-      return arr.shift();
+      // return arr.shift();
+      return arr[0];
   },
 
   // returns the last element of an array
   last: function (arr) {
-      return arr.pop();
+      // return arr.pop();
+      return arr[arr.length-1];
   },
 
   // returns the index of the first matching element from left to right
   indexOf: function (arr, num) {
-      return arr.indexOf(num);
+      // return arr.indexOf(num);
+      
   },
 
   // returns the index of the first matching element from right to left
   lastIndexOf: function (arr, num) {
-      return arr.lastIndexOf(num);
+      // return arr.lastIndexOf(num);
   },
 
   // returns an array with all elements except for the last element
   initial: function (arr) {
-      return arr.slice(0, -1);
+      // return arr.slice(0, -1);
   },
   
   // returns an array with all falsey values removed
-  compact: function() {
+  compact: function(arr) {
 
   },
 
   // creates a slice of an array from the start index up to but not including the end index
   slice: function () {
-
+    
   },
 
   // returns a slice of array with n elements dropped from the beignning
