@@ -24,12 +24,19 @@ global.bruhdash = {
   // returns the index of the first matching element from left to right
   indexOf: function (arr, num) {
       // return arr.indexOf(num);
+      for (var i = 0; i < arr.length; i++) {
+        
+      }
       
   },
 
   // returns the index of the first matching element from right to left
   lastIndexOf: function (arr, num) {
       // return arr.lastIndexOf(num);
+    for (var i = arr.length; i >= 0; i--) {
+        
+    }
+
   },
 
   // returns an array with all elements except for the last element
